@@ -1,18 +1,15 @@
 {
-  "name": "project",
+  "name": "blog_server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "blog.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon blog.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.1"
-  },
-  "dependencies": {
-    "figlet": "^1.2.4",
-    "jquery": "^3.4.1"
   }
 }
