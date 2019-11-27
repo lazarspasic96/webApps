@@ -8,19 +8,12 @@ fetch('http://127.0.0.1:3000')
             h1.text(post.title)
             const p = $('<p></p>')
             p.text(post.body)
-
             div
                 .append(h1)
                 .append(p)
                 .css('background-color', 'green')
                 .css('margin', '10px')
             $('header').append(div)
-
-
-
-
-
-
         });
 
     })
